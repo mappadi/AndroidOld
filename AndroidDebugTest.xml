@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Android" parallel="false" thread-count="1">  <!-- name="Android" -->
+
+
+	<!-- <parameter name="userType" value="${UserType}"/> Guest/NonSubscribedUser/SubscribedUser 
+		<parameter name="runMode" value="${runMode}"/>
+		<parameter name="runModule" value="${runModule}"/> -->
+
+	<parameter name="userType" value="SubscribedUser"/>  <!-- Guest/NonSubscribedUser/SubscribedUser -->
+	<parameter name="runModule" value="Suite"/>
+	<parameter name="runMode" value="Suites"/>
+	
+	<parameter name="SubscribedUserWith15daysExpiryUsername" value="testzee5_4@gmail.com" />
+	<parameter name="SubscribedUserWith15daysExpiryPassword" value="123456" />
+	
+	<parameter name="NonsubscribedUserName" value="igstesting001@gmail.com"/>
+	<parameter name="NonsubscribedPassword" value="igs@12345"/>
+	
+	<parameter name="SubscribedUserName" value="zeetest998@test.com"/>
+	<parameter name="SubscribedPassword" value="123456"/>
+	
+	<parameter name="RegisteredEmail" value="zee5latest@gmail.com"/>
+	<parameter name="RegisteredEmailPassword" value="User@123"/>
+	
+	<parameter name="regUserName" value="igszeefive3@gmail.com"/>
+	<parameter name="regPassword" value="123456"/>
+	
+	<parameter name="RegisteredMobile" value="7892215214"/>
+	<parameter name="RegisteredMobilePassword" value="User@123"/>
+	<parameter name="UnRegisteredMobile" value="8073661163"/>
+	<parameter name="PromoCode" value="PNB20"/>
+	
+	<!-- ======Test Data====== -->
+	<parameter name="displayLanguageSelection1" value="English"/>
+	<parameter name="displayLanguageSelection2" value="Marathi"/>
+	<parameter name="inValidPhnNumber" value="7892215"/>
+    <parameter name="validPhnNumber" value="7892215214"/>
+    <parameter name="validPassword" value="User@123"/>
+    <parameter name="otp1" value="1"/>
+    <parameter name="otp2" value="2"/>
+    <parameter name="otp3" value="3"/>
+    <parameter name="otp4" value="4"/>
+    <parameter name="FirstName" value="Zee"/>
+	<parameter name="LastName" value="UserZee"/>
+	<parameter name="loginThrough" value="login"/>
+	<parameter name="PrepaidCode" value="Z5PWATI9WlD"/>
+	<parameter name="RSVODUser" value="9663128823" />
+	<parameter name="RSVODPassword" value="ABCD1234" />
+	<parameter name="searchKeyword" value="Aditya praises Paaru" />
+	<parameter name="invalidSearchKeyword" value="@$_-(;_+" />
+	<parameter name="partlySpeltSearchKeyword" value="Kam" />
+	<parameter name="searchModuleKeyword" value="Kamali" />
+	<parameter name="searchKeyword1" value="Paaru gets tipsy" />
+	<parameter name="searchKeyword2" value="Jodi Hakki" />
+	
+	<parameter name="tabName1" value="Home" />
+	<parameter name="tabName2" value="Movies" />
+	<parameter name="tabName3" value="ZEE5 Originals" />
+	
+	<parameter name="VideoQuality" value="Data saver" />	<!-- Data saver/Good/Better/Best -->
+	<parameter name="MovieName" value="O God Ganesha 2" />
+	
+	<parameter name="searchcontent1" value="Dil Bechara – Title Track" />
+	<parameter name="searchcontent2" value="Comedy Kiladigalu Championship - Episode 8" />
+	<parameter name="searchcontent3" value="Comedy Kiladigalu Championship - Episode 24" />
+	<parameter name="searchcontent4" value="Comedy Kiladigalu Championship - Episode 9" />
+	<parameter name="searchcontent5" value="Comedy Kiladigalu Championship - Episode 10" />
+	<parameter name="searchcontent6" value="Comedy Kiladigalu Championship - Episode 11" />
+	
+	<parameter name="NonsubscribedUserWithInActivePackUsername" value="zeetestww@test.com" />
+	<parameter name="NonsubscribedUserWithInActivePackPassword" value="123456" />
+	
+	<parameter name="NonsubscribedUserWithNoTransactionUsername" value="zeebuild@gmail.com" />
+	<parameter name="NonsubscribedUserWithNoTransactionPassword" value="User@123" />
+	
+	<parameter name="SettingsNonsubscribedUserName" value="zeetest@gmail.com"/>
+	<parameter name="SettingsNonsubscribedPassword" value="zee12345"/>
+	
+	<parameter name="SettingsSubscribedUserName" value="zeein7@mailnesia.com"/>
+	<parameter name="SettingsSubscribedPassword" value="123456"/>
+
+	<listeners>
+		<listener class-name="com.extent.ExtentReporter" />
+		<!-- <listener class-name="com.utility.MyTranformer"/> -->
+	</listeners>
+
+	<!-- <test name="Android_AppLaunch"> <classes> <class name="com.zee5.ApplicasterScripts.Android_AppLaunch" 
+		/> </classes> </test> <test name="Android_Onboarding_Suite1"> <classes> <class 
+		name="com.zee5.ApplicasterScripts.Android_Onboarding_Suite1" /> </classes> 
+		</test> <test name="Android_Onboarding_Suite2"> <classes> <class name="com.zee5.ApplicasterScripts.Android_Onboarding_Suite2" 
+		/> </classes> </test> <test name="Android_Onboarding_Suite3"> <classes> <class 
+		name="com.zee5.ApplicasterScripts.Android_Onboarding_Suite3" /> </classes> 
+		</test> <test name="Android_Subscription"> <classes> <class name="com.zee5.ApplicasterScripts.Android_Subscription" 
+		/> </classes> </test> <test name="Android_Search"> <classes> <class name="com.zee5.ApplicasterScripts.Android_Search" 
+		/> </classes> </test> -->
+
+
+	<!-- <test name="DeepLinkValidation"> <classes> <class name="com.zee5.ApplicasterScripts.DeepLinkValidation"/> 
+		</classes> </test> -->
+
+	<test name="Android_LandingScreen_TopNavigation">
+		<classes>
+			<class name="com.zee5.ApplicasterScripts.Android_LandingScreen_TopNavigation" />
+		</classes>
+	</test>
+	
+	
+<!--
+	<test name="DeepLinkValidation">
+    	<classes>
+      		<class name="com.zee5.ApplicasterScripts.DeepLinkValidation"/>
+    	</classes> 
+  </test> 
+  -->
+	
+</suite>

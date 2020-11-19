@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Web" duration-ms="7721" started-at="2020-09-09T07:06:05Z" finished-at="2020-09-09T07:06:13Z">
+    <groups>
+    </groups>
+    <test name="WebPWASanityScript" duration-ms="7721" started-at="2020-09-09T07:06:05Z" finished-at="2020-09-09T07:06:13Z">
+      <class name="com.zee5.PWASanityScripts.WebPWASanityScript">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.zee5.PWASanityScripts.WebPWASanityScript@73eb8672]" name="init" is-config="true" duration-ms="7117" started-at="2020-09-09T12:36:05Z" finished-at="2020-09-09T12:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="PWAWEBLogin(java.lang.String)[pri:1, instance:com.zee5.PWASanityScripts.WebPWASanityScript@73eb8672]" name="PWAWEBLogin" duration-ms="15" started-at="2020-09-09T12:36:12Z" finished-at="2020-09-09T12:36:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Guest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PWAWEBLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.zee5.PWASanityScripts.WebPWASanityScript@73eb8672]" name="tearDown" is-config="true" duration-ms="90" started-at="2020-09-09T12:36:13Z" finished-at="2020-09-09T12:36:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zee5.PWASanityScripts.WebPWASanityScript -->
+    </test> <!-- WebPWASanityScript -->
+  </suite> <!-- Web -->
+</testng-results>

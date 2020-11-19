@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Android]">
+  <parameter name="searchModuleKeyword" value="Kamali"/>
+  <parameter name="SubscribedUserWith15daysExpiryPassword" value="123456"/>
+  <parameter name="invalidSearchKeyword" value="@$_-(;_+"/>
+  <parameter name="MovieName" value="O God Ganesha 2"/>
+  <parameter name="RegisteredEmail" value="zee5latest@gmail.com"/>
+  <parameter name="searchKeyword1" value="Paaru gets tipsy"/>
+  <parameter name="tabName1" value="Home"/>
+  <parameter name="tabName2" value="Movies"/>
+  <parameter name="tabName3" value="ZEE5 Originals"/>
+  <parameter name="validPhnNumber" value="7892215214"/>
+  <parameter name="SubscribedUserName" value="zeetest998@test.com"/>
+  <parameter name="UnRegisteredMobile" value="8073661163"/>
+  <parameter name="NonsubscribedUserName" value="igstesting001@gmail.com"/>
+  <parameter name="RSVODPassword" value="ABCD1234"/>
+  <parameter name="displayLanguageSelection2" value="Marathi"/>
+  <parameter name="NonsubscribedPassword" value="igs@12345"/>
+  <parameter name="runMode" value="Suites"/>
+  <parameter name="RegisteredMobilePassword" value="User@123"/>
+  <parameter name="NonsubscribedUserWithInActivePackPassword" value="123456"/>
+  <parameter name="RegisteredEmailPassword" value="User@123"/>
+  <parameter name="userType" value="NonSubscribedUser"/>
+  <parameter name="LastName" value="UserZee"/>
+  <parameter name="NonsubscribedUserWithNoTransactionPassword" value="User@123"/>
+  <parameter name="SubscribedPassword" value="123456"/>
+  <parameter name="PromoCode" value="PNB20"/>
+  <parameter name="searchKeyword" value="Aditya praises Paaru"/>
+  <parameter name="RSVODUser" value="9663128823"/>
+  <parameter name="otp1" value="1"/>
+  <parameter name="displayLanguageSelection1" value="English"/>
+  <parameter name="otp2" value="2"/>
+  <parameter name="NonsubscribedUserWithInActivePackUsername" value="zeetestww@test.com"/>
+  <parameter name="runModule" value="Suite"/>
+  <parameter name="searchcontent6" value="Comedy Kiladigalu Championship - Episode 11"/>
+  <parameter name="validPassword" value="User@123"/>
+  <parameter name="searchcontent5" value="Comedy Kiladigalu Championship - Episode 10"/>
+  <parameter name="NonsubscribedUserWithNoTransactionUsername" value="zeebuild@gmail.com"/>
+  <parameter name="partlySpeltSearchKeyword" value="Kam"/>
+  <parameter name="otp3" value="3"/>
+  <parameter name="searchcontent2" value="Comedy Kiladigalu Championship - Episode 8"/>
+  <parameter name="otp4" value="4"/>
+  <parameter name="searchcontent1" value="Dil Bechara – Title Track"/>
+  <parameter name="searchcontent4" value="Comedy Kiladigalu Championship - Episode 9"/>
+  <parameter name="searchcontent3" value="Comedy Kiladigalu Championship - Episode 24"/>
+  <parameter name="loginThrough" value="login"/>
+  <parameter name="regUserName" value="igszeefive3@gmail.com"/>
+  <parameter name="FirstName" value="Zee"/>
+  <parameter name="PrepaidCode" value="Z5PWATI9WlD"/>
+  <parameter name="regPassword" value="123456"/>
+  <parameter name="inValidPhnNumber" value="7892215"/>
+  <parameter name="VideoQuality" value="Data saver"/>
+  <parameter name="SubscribedUserWith15daysExpiryUsername" value="testzee5_4@gmail.com"/>
+  <parameter name="RegisteredMobile" value="7892215214"/>
+  <listeners>
+    <listener class-name="com.extent.ExtentReporter"/>
+  </listeners>
+  <test name="Android_MoreScreen">
+    <classes>
+      <class name="com.zee5.ApplicasterScripts.Android_MoreScreen"/>
+    </classes>
+  </test> <!-- Android_MoreScreen -->
+</suite> <!-- Failed suite [Android] -->

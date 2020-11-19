@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Web]">
+  <parameter name="SubscribedPassword" value="123456"/>
+  <parameter name="timedAnchorMusic" value="Appa Lyrical - Punith Shetty"/>
+  <parameter name="premiumMovieNoTrailer" value="Fitoor"/>
+  <parameter name="premiumMovieNoTrailer3" value="Tamasha"/>
+  <parameter name="premiumMovieNoTrailer2" value="The Real Tiger"/>
+  <parameter name="ExpiredUserPassword" value="User@123"/>
+  <parameter name="freeMovie" value="Krishna Balram: The Warrier Princess"/>
+  <parameter name="browserType" value="Chrome"/>
+  <parameter name="premiumMovie2" value="Hotel Mumbai"/>
+  <parameter name="ExpiredUserName" value="zee5latest@gmail.com"/>
+  <parameter name="premiumMovieWithTrailer" value="Chintu Ka Birthday"/>
+  <parameter name="music" value="Nachde Ne Saare - Baar Baar Dekho | Sidharth Malhotra | Katrina Kaif | Armaan"/>
+  <parameter name="episodeToTriggerReco" value="Aditya-Paarvathi challenge themselves for fun"/>
+  <parameter name="consumptionsFreeContent" value="Robin Hood"/>
+  <parameter name="SubscribedUserName" value="zeetest10@test.com"/>
+  <parameter name="runModule" value="Suite"/>
+  <parameter name="consumptionsContentWithMetaData" value="Jodha Akbar"/>
+  <parameter name="tvshow" value="Kannamoochi"/>
+  <parameter name="freeEpisode2" value="Kumkum Bhagya - Episode 1166 - August 15, 2018 - Full Episode"/>
+  <parameter name="audioTrackContent" value="Episode 13 - Agent Raghav"/>
+  <parameter name="freeEpisode1" value="Ep 1 - Tamannaah Bhatia&#039;s Fitness Mantras | Dabur Honey Hello Fitness"/>
+  <parameter name="freeEpisode4" value="Episode 4 - Pavitra Rishta"/>
+  <parameter name="NonsubscribedUserName" value="basavaraj.pn5@gmail.com"/>
+  <parameter name="consumptionsShow" value="Pavitra Rishta"/>
+  <parameter name="freeEpisode3" value="Yeh Teri Galiyan - Episode 1 - July 25, 2018 - Full Episode"/>
+  <parameter name="timedAnchorEpisode" value="Paarvathi kisses Aditya - Paaru"/>
+  <parameter name="devicePin" value="1619"/>
+  <parameter name="news" value="R News"/>
+  <parameter name="livetv" value="ZEE News"/>
+  <parameter name="newsToTriggerReco" value="Rapid fire with Leander Pace: 18-Time grand slam winner on the hot seat"/>
+  <parameter name="premiumMovie" value="The Road Within"/>
+  <parameter name="consumptionsEpisode" value="Guddan steps up to protect her family"/>
+  <parameter name="NonsubscribedPassword" value="igsindia123"/>
+  <parameter name="url" value="https://newpwa.zee5.com/"/>
+  <parameter name="runMode" value="Suites"/>
+  <parameter name="freeMovie3" value="Pup Scouts"/>
+  <parameter name="freeMovie2" value="Manthan"/>
+  <parameter name="episodeSpoiler" value="Happu Ki Ultan Paltan - Episode 22 - April 02, 2019 - Next Episode Spoiler"/>
+  <parameter name="freeMovie4" value="Robin Hood"/>
+  <parameter name="searchModuleSearchKey" value="Kundali Bhagya"/>
+  <parameter name="trailerOfPremiumMovie" value="Kedarnath - Trailer"/>
+  <parameter name="musicToTriggerReco" value="Dopamine - REJCTX"/>
+  <parameter name="consumptionsPremiumContent" value="Badnaam Gali"/>
+  <parameter name="movieToTriggerReco" value="Monsters And Pirates"/>
+  <parameter name="userType" value="Guest"/>
+  <parameter name="timedAnchorMovie" value="Robin Hood"/>
+  <listeners>
+    <listener class-name="com.extent.ExtentReporter"/>
+    <listener class-name="com.extent.ParameterInjector"/>
+  </listeners>
+  <test name="WebPWASanityScript">
+    <classes>
+      <class name="com.zee5.PWASanityScripts.WebPWASanityScript"/>
+    </classes>
+  </test> <!-- WebPWASanityScript -->
+</suite> <!-- Failed suite [Web] -->
